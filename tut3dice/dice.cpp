@@ -11,13 +11,13 @@ int main()
 	cin >> RollNum;
 
 	float Ave;
-	//Overloaded member method
+	//Overloaded membed
 	Ave = Dice1.average(Dice2, RollNum);
 	cout << "The average is " << Ave << endl;
 
 	int *ARolls = new int[RollNum];
 
-	for (int i = 0; i < RollNum; ++i)
+	for (int i = 0; i < RollNum; ++i)    
 	{
 		ARolls[i] = Dice2.roll();
 	}
